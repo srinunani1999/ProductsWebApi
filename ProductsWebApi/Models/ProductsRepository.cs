@@ -13,6 +13,8 @@ namespace ProductsWebApi.Models
             products.Add(new Product { Id = 101, Name = "Asus i5", Description = "8gb Ram", Price = 50000 }
                 );
             products.Add(new Product { Id = 102, Name = "MSI i5", Description = "8gb Ram", Price = 60000 });
+            products.Add(new Product { Id = 103, Name = "Acer i5", Description = "8gb Ram", Price = 70000 });
+
 
         }
 
