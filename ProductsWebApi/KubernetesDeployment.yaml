@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapivaluesservice
-        image: acrdevopsdemoproducts.azurecr.io/azuredevopscontainerimage
+        image: acrdevopsdemoproducts.azurecr.io/azuredevopscontainerimage:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
